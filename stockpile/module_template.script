@@ -1,0 +1,13 @@
+local m = require "m.m"
+
+local M = m(...)
+
+
+function M.new()
+	local instance = {}
+	
+	return instance
+end
+
+
+return M
